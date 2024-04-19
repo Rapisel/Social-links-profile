@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --branco: #ffffff;
+    --verde: #C4F82A;
+    --cinza-claro: #333333;
+    --cinza: #1F1F1F;
+    --cinza-escuro: #141414;
+
+    --fonte-principal: "Inter";
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cinza-escuro);
+}
+.texto {
+    text-align: center;
+    padding: 1rem;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    color: var(--branco);
+    width: auto;
+    height: auto;
+    background: var(--cinza);
+    padding: 2rem ;
+    border-radius: 12px;
+    text-align: center;
+}
+.box__imagem {
+    border-radius: 100%;
+    width: 5.5rem;
+}
+.box__nome{
+    font-size: 28px;
+}
+.box__localizacao {
+    color: var(--verde);
+    padding: 0 0 1rem 0;
+}
+.box__texto {
+    font-weight: 400;
+}
+.box__ancoras {
+    display: flex;
+    flex-direction: column;
+}
+.box__ancoras__ancora {
+    font-weight: 600;
+    padding: 1rem;
+    background-color: var(--cinza-claro);
+    border-radius: .5rem;
+    margin: .5rem 0;
+    text-decoration: none;
+    color: var(--branco);
+}
+.box__ancoras__ancora:hover {
+    font-weight: 600;
+    background-color: var(--verde);
+    color: var(--cinza-claro);
+}
