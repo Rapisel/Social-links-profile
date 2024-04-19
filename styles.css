@@ -62,7 +62,6 @@ body {
     text-decoration: none;
     color: var(--branco);
     transition: background-color .5s ease;
-    transition: color .5s ease;
 }
 .box__ancoras__ancora:hover {
     font-weight: 600;
